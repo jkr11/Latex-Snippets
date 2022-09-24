@@ -3,19 +3,26 @@
 
 \begin{definition}[Fourier Series]
 \[
-        f(x) = \sum_{k=1}^{\infty}   (A_k \cos (kx)+B_k \sin (kx))
+        f(x) = \frac{A_0}{2}\sum_{k=1}^{\infty}   (A_k \cos (kx)+B_k \sin (kx))
 \]
 \end{definition}
 where
 \begin{definition}
     \(
-    A_k = \frac{1}{\pi} \int_{-\pi} ^\pi f(x) \cos (kx) dx
+    A_k = \frac{1}{\pi} \int_{-\pi} ^\pi f(x) \cos (kx) \mathrm{d}x = \frac{1}{\left\lVert \cos (kx)\right\rVert ^{2}}  \braket{f(x), \cos (kx)}
     \)
 \end{definition}
 and
 \begin{definition}
     \(
-        B_k = \frac{1}{\pi }\int_{-\pi} ^\pi f(x) \sin(kx) dx
+       B_k = \frac{1}{\pi}\int_{-\pi}^{\pi} f(x) \sin (kx)\,\mathrm{d}x = \frac{1}{\left\lVert \sin (kx)\right\rVert ^{2} } \braket{f(x), \sin (kx)}
     \)
 \end{definition}
+
+\begin{figure}[h]
+    \centering
+    \input{figure1.pdf_tex}
+    \caption{Stokes theorem (Vector form)}
+    \label{fig:1}
+\end{figure}
 
