@@ -1,3 +1,0 @@
-\contentsline {chapter}{\numberline {1}Fourier Transform}{2}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Lecture 1: Fourier Series}{2}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Lecture 2: Inner Products in Hilbert Space}{2}{section.1.2}%
